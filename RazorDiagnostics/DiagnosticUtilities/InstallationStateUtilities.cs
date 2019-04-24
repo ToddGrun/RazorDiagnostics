@@ -51,7 +51,7 @@ namespace RazorDiagnostics.DiagnosticUtilities
 
         internal static string InstalledRazorExtensionAssemblies => GetAssembliesInFolder(RazorExtensionFolder);
 
-        internal static string WebEditorFolder => Path.Combine(IDEFolder, @"Extensions\Microsoft\Web Tools\Editors");
+        internal static string WebEditorFolder => Path.Combine(IDEFolder, @"Extensions\Microsoft\Web Tools\Languages");
 
         internal static string WebEditorRazor4Folder => Path.Combine(WebEditorFolder, @"Razor\v4.0");
 
